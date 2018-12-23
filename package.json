@@ -3,7 +3,7 @@
     "aberlaas": "0.0.18"
   },
   "name": "xanatar",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Test package, nothing to see here",
   "main": "index.js",
   "repository": "git@github.com:pixelastic/xanatar.git",
