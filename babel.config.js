@@ -1,4 +1,4 @@
 /* eslint-disable import/no-commonjs */
 module.exports = {
-  presets: ['./lib/configs/babel.js'],
+  presets: ['aberlaas/lib/configs/babel.js'],
 };

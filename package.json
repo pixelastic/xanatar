@@ -1,16 +1,27 @@
 {
-  "devDependencies": {
-    "aberlaas": "0.0.18"
-  },
-  "files": [],
-  "main": "index.js",
-  "name": "xanatar",
-  "version": "1.1.6",
-  "description": "Test package, nothing to see here",
-  "repository": "git@github.com:pixelastic/xanatar.git",
   "author": "Pixelastic <tim@pixelastic.com>",
+  "dependencies": {
+    "esm": "3.2.25"
+  },
+  "description": "Test package, nothing to see here",
+  "devDependencies": {
+    "aberlaas": "1.2.3"
+  },
+  "files": [
+    "lib/"
+  ],
   "license": "MIT",
+  "main": "lib/main.js",
+  "name": "xanatar",
+  "repository": "git@github.com:pixelastic/xanatar.git",
   "scripts": {
-    "release": "aberlaas release"
-  }
+    "ci": "./scripts/ci",
+    "husky:precommit": "./scripts/husky-precommit",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "aberlaas release",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
+  },
+  "version": "1.1.6"
 }
